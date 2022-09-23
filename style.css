@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    padding: 5.0rem 0rem 5.0rem 7.2rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
